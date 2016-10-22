@@ -1,0 +1,175 @@
+@media screen and (max-width: 25em){
+  .heading{
+    background-color: #df5562;
+    color:white;
+    z-index: 99;
+    position: fixed;
+  }
+ .hid{
+  
+  color:white;
+
+
+ }
+ /*Apply display*/
+  .list{
+    margin:none;
+    padding:none;
+    height:80%;
+    width: 100%;
+    display:none;
+    text-align:center;
+    position:fixed;
+    background-color: rgba(238,135,135,0.8);
+  }
+  .dis{
+    margin:none;
+    padding:none;
+    height:80%;
+    width: 104%;
+    z-index:34;
+    margin-left:0em;
+    display:block;
+    
+   
+  }
+ 
+ .hid li{
+  width:100%;
+  padding-top: 2em;
+  padding-right:2em;
+  padding-bottom: 3em;
+  text-align: center;
+  list-style:none;
+  font-family:sans-serif;
+  margin:none;
+ }
+li a{
+  color:white;
+
+}
+li a:hover{
+  color:#636060;
+}
+/*apply scroll*/
+.ima{
+  height:20em;
+  background:url("../images/bg.png");
+  background-position:center;
+  background-attachment: fixed;
+  background-size: cover; 
+  position:relative;
+  overflow:hidden;
+}
+.ima img{
+  position:absolute;
+  bottom:-2em;
+}
+.ima h4{
+  font-size: 5em;
+  color:white;
+  font-family: monospace;
+  text-align: center;
+  margin-top:1em;
+}
+.ima p{
+  text-align: center;
+  color:white;
+  border: 0.1em solid white;
+  border-radius: 0.2em;
+  width:75%;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%,0%);
+
+}
+.flow div{
+  display:inline-block;
+  height:15em;
+  margin-left:0em !important;
+  position:relative;
+  left:6px;
+}
+.b2,.b4,.b6,.b8,.b10{
+  
+  background:#e65c61;
+  
+}
+.b1,.b3,.b5,.b7,.b9{
+  
+  background:#7f7d7d;
+  
+}
+
+.status{
+height:10em;
+position:relative;
+width: 100%;
+background-color:#092030;
+}
+.center{
+  position:absolute;
+  left:40%;
+}
+.status span{
+  padding-top:0.1em;
+  text-align:center;
+  display:block;
+  width:50%;
+  color:#eb5d5d;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+.one1{
+  animation: side 300ms ease-in-out forwards;
+}
+
+@keyframes side{
+  0%{
+    transform:translateX(4em);
+  }
+  100%{
+    transform: translateX(0em);
+  }
+}
+.portfolio{
+  background-color: #1b282c;
+  position: relative;
+  height:24em;
+}
+.button{
+  text-align:center;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+
+}
+#rotate1{
+  transform-origin: center;
+  animation:rot 900ms linear infinite;
+}
+@keyframes rot{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+#rotate2{
+  transform-origin: center;
+  animation:rote 2s linear infinite;
+}
+@keyframes rote{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform:rotate(0deg);
+  }
+}
+.button a{
+  color:white;
+}
+}
