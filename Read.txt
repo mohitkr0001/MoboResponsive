@@ -1,0 +1,2 @@
+This website is only responsive in mobile view so to view it.
+Press ctrl+shift+i and chnage your view setting.
